@@ -1,0 +1,32 @@
+{
+  "name": "sahab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel sync start",
+    "sync": "browser-sync start -p 'sahab.local' --files '**/*.php' '**/*.scss' '**/*.js'",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/lab": "^5.0.0-alpha.96",
+    "@mui/material": "^5.10.2",
+    "@wordpress/scripts": "^22.5.0",
+    "email-validator": "^2.0.4",
+    "gridjs": "^5.0.2",
+    "gridjs-react": "^5.0.2",
+    "npm-run-all": "^4.1.5",
+    "password-validator": "^5.3.0",
+    "plyr-react": "^3.2.1",
+    "react-player": "^2.10.0",
+    "react-router-dom": "^6.2.1"
+  }
+}

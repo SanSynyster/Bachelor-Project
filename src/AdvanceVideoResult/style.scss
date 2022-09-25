@@ -1,0 +1,11 @@
+.responsive-div {
+    width: 80%;
+
+    @media screen and (max-width: 576px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 1400px) {
+        // width: 100%;
+    }
+}
